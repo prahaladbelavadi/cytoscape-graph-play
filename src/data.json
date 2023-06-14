@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "data": {
+                "id": "one",
+                "label": "Node 1"
+            },
+            "position": {
+                "x": 50,
+                "y": 50
+            }
+        },
+        {
+            "data": {
+                "id": "two",
+                "label": "Node 2"
+            },
+            "position": {
+                "x": 100,
+                "y": 200
+            }
+        },
+        {
+            "data": {
+                "id": "2",
+                "label": "Node 2"
+            },
+            "position": {
+                "x": 100,
+                "y": 250
+            }
+        },
+        {
+            "data": {
+                "source": "one",
+                "target": "two",
+                "label": "Edge from Node1 to Node2"
+            }
+        },
+        {
+            "data": {
+                "source": "one",
+                "target": "2",
+                "label": "Edge from Node1 to Node2"
+            }
+        }
+    ]
+}
